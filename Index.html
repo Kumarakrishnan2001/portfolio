@@ -1,14 +1,29 @@
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Kumarakrishnan D</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumarakrishnan D | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Kumarakrishnan D - Creative Frontend Developer and UI/UX Designer showcasing responsive web applications, MERN stack projects, and modern interactive designs.">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Scroll Progress Bar -->
     <div class="progress-bar" id="progressBar"></div>
-    
+
+    <!-- Ambient Animated Background Orbs -->
+    <div class="bg-ambient">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+    </div>
+
+    <!-- Floating Background Particles -->
     <div class="bg-animation">
-        <span></span>
         <span></span>
         <span></span>
         <span></span>
@@ -18,88 +33,156 @@
         <span></span>
     </div>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Floating Glossy Header & Nav -->
+    <header>
+        <nav id="navbar">
+            <a href="#home" class="nav-brand">
+                <span>&lt;Kumarakrishnan /&gt;</span>
+            </a>
 
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <ul id="navMenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
-            <div class="hero-image">
-                <img src="kumar1.jpg" alt="Kumarakrishnan D" class="profile-pic">
+            <div class="hero-image-wrapper fade-in">
+                <div class="profile-aura"></div>
+                <div class="profile-ring"></div>
+                <div class="profile-glass-frame">
+                    <img src="kumar1.jpg" alt="Kumarakrishnan D" class="profile-pic">
+                </div>
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    Available for Opportunities
+                </div>
             </div>
-            <div class="hero-content">
+
+            <div class="hero-content fade-in">
+                <div class="hero-badge">
+                    ✨ Creative Web Developer &amp; Data Analyst
+                </div>
                 <h1>Kumarakrishnan D</h1>
-                <p class="subtitle">Frontend / Web Developer/ UI/UX Designer</p>
-                <p class="description">Building beautiful, responsive web applications with modern technologies and clean code. Passionate about creating seamless user experiences.</p>
+                <p class="subtitle"> Web Developer / Data Analyst/ UI/UX Designer</p>
+                <p class="description">
+                    Building beautiful, responsive web applications with modern technologies and clean code.
+                    Passionate about transforming creative concepts into glossy, intuitive, and seamless digital user
+                    experiences.
+                </p>
                 <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
-                    <a href="#projects" class="btn btn-secondary">Projects</a>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Connect</span> 💬
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>View Projects</span> 🚀
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Quick Stats Strip -->
+    <div class="stats-strip fade-in">
+        <div class="stat-card">
+            <div class="stat-num">MCA</div>
+            <div class="stat-label">Computer Applications</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">MERN</div>
+            <div class="stat-label">Full Stack Focus</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Technologies &amp; Tools</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Passionate &amp; Dedicated</div>
+        </div>
+    </div>
+
+    <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <div style="max-width: 850px; margin: 0 auto; text-align: center;">
-            <p style="font-size: 1.15rem; line-height: 2; opacity: 0.9;">
-               Passionate Frontend Developer and UI/UX Designer with a Master's degree in Computer Applications (MCA) and practical experience in developing responsive, 
-               user-friendly web applications. Proficient in transforming ideas into intuitive digital experiences through modern frontend technologies, UI/UX principles,
-                and API integration. Driven by creativity, problem-solving, and continuous learning, with a focus on building scalable, high-performance applications that deliver real value to users and businesses
+        <div class="section-header fade-in">
+            <h2>About Me</h2>
+            <p class="section-subtitle">Crafting digital experiences with passion &amp; precision</p>
+        </div>
+        <div class="glass-card about-card fade-in">
+            <p>
+                Passionate Software Developer and Data Analyst, UI/UX Designer with a Master's degree in Computer
+                Applications (MCA) and practical experience in developing responsive,
+                user-friendly web applications. Proficient in transforming ideas into intuitive digital experiences
+                through modern frontend technologies, UI/UX principles,
+                and API integration. Driven by creativity, problem-solving, and continuous learning, with a focus on
+                building scalable, high-performance applications that deliver real value to users and businesses.
             </p>
+            <div class="about-highlights">
+                <div class="about-pill">🎓 MCA Graduate Candidate</div>
+                <div class="about-pill">🎨 UI/UX Interface Design</div>
+                <div class="about-pill">💻 Modern Frontend Dev</div>
+                <div class="about-pill">⚡ API Integration &amp; MERN</div>
+            </div>
         </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills">
-        <h2>Technical Arsenal</h2>
+        <div class="section-header fade-in">
+            <h2>Technical Arsenal</h2>
+            <p class="section-subtitle">Modern stack and capabilities</p>
+        </div>
         <div class="skills-grid">
-            <div class="skill-card fade-in">
-                <div class="skill-icon">🎨</div>
+            <div class="glass-card skill-card fade-in">
+                <div class="skill-icon-container">🎨</div>
                 <h3>Frontend Development</h3>
-                <p style="opacity: 0.8; margin-bottom: 1rem;">Creating beautiful, responsive interfaces</p>
+                <p>Creating vibrant, glass-styled, and responsive interfaces</p>
                 <div class="skill-tags">
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript (ES6+)</span>
                     <span class="tag">React.js</span>
                     <span class="tag">UI/UX Design</span>
                 </div>
             </div>
-            <div class="skill-card fade-in">
-                <div class="skill-icon">⚙️</div>
-                <h3>Backend & Database</h3>
-                <p style="opacity: 0.8; margin-bottom: 1rem;">Building robust server-side solutions</p>
+
+            <div class="glass-card skill-card fade-in">
+                <div class="skill-icon-container">⚙️</div>
+                <h3>Backend &amp; Database</h3>
+                <p>Building structured and efficient database solutions</p>
                 <div class="skill-tags">
-                    <span class="tag">My SQL</span>
+                    <span class="tag">MySQL</span>
                     <span class="tag">MongoDB</span>
-                    <!-- <span class="tag">Node.js</span>
-                    <span class="tag">Express.js</span>
-                    <span class="tag">MongoDB</span>
-                    <span class="tag">REST APIs</span> -->
                 </div>
             </div>
-            <div class="skill-card fade-in">
-                <div class="skill-icon">💻</div>
+
+            <div class="glass-card skill-card fade-in">
+                <div class="skill-icon-container">💻</div>
                 <h3>Programming Languages</h3>
-                <p style="opacity: 0.8; margin-bottom: 1rem;">Versatile coding capabilities</p>
+                <p>Versatile coding and algorithmic logic building</p>
                 <div class="skill-tags">
                     <span class="tag">JavaScript</span>
                     <span class="tag">Python</span>
-                    <!-- <span class="tag">C++</span> -->
                 </div>
             </div>
-            <div class="skill-card fade-in">
-                <div class="skill-icon">🛠️</div>
-                <h3>Tools & Technologies</h3>
-                <p style="opacity: 0.8; margin-bottom: 1rem;">Modern development workflow</p>
+
+            <div class="glass-card skill-card fade-in">
+                <div class="skill-icon-container">🛠️</div>
+                <h3>Tools &amp; Workflow</h3>
+                <p>Industry-standard platforms for design and development</p>
                 <div class="skill-tags">
+                    <span class="tag">Power BI</span>
                     <span class="tag">Git</span>
                     <span class="tag">GitHub</span>
                     <span class="tag">Postman</span>
@@ -107,95 +190,151 @@
                     <span class="tag">Firebase</span>
                     <span class="tag">Figma</span>
                     <span class="tag">Canva</span>
-                    
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
-        <h2>Featured Projects</h2>
+        <div class="section-header fade-in">
+            <h2>Featured Projects</h2>
+            <p class="section-subtitle">Highlights of recent work &amp; web applications</p>
+        </div>
         <div class="projects-grid">
-            <div class="project-card fade-in">
+            <div class="glass-card project-card fade-in">
+                <div class="project-top-bar"></div>
                 <div class="project-content">
-                    <h3>Human Resource Management System <a href="https://hrms-frontend-nine.vercel.app/" target="_blank"><img src="icons8-website-50.png" alt="" style="background-color: rgb(230, 240, 240); height: 6%; "> Live Demo</a></h3>
-                    <p class="project-tech">MERN Stack • 2025 </p>
-                    <p>Developed a comprehensive web-based HRMS to manage employee records, attendance, payroll, 
-                    and internal communication. Implemented role-based authentication with a focus on clean UI 
-                    and usability. Features include real-time updates and responsive dashboard.</p>
+                    <h3>Human Resource Management System</h3>
+                    <span class="project-tech">MERN Stack • 2025</span>
+                    <p>
+                        Developed a comprehensive web-based HRMS to manage employee records, attendance, payroll,
+                        and internal communication. Implemented role-based authentication with a focus on clean UI
+                        and usability. Features include real-time updates and responsive dashboard.
+                    </p>
+                    <div class="project-actions">
+                        <a href="https://hrms-frontend-nine.vercel.app/" target="_blank" class="project-link-btn demo">
+                            <img src="icons8-website-50.png" alt=""
+                                style="width: 18px; height: 18px; filter: brightness(0) invert(1);"> Live Demo
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="project-card fade-in">
+
+            <div class="glass-card project-card fade-in">
+                <div class="project-top-bar"></div>
                 <div class="project-content">
-                    <h3>Attendance Management System <a href="https://github.com/Kumarakrishnan2001/Attendence-m-system.git" target="_blank">GitHub</a></h3>
-                    <p class="project-tech">MERN Stack | 2025</p>
-                    <p>Built a role-based attendance management system enabling Admin and Manager access for 
-                    daily attendance tracking, status updates, and comprehensive reporting features. Includes 
-                    data visualization and export capabilities.</p>
+                    <h3>Attendance Management System</h3>
+                    <span class="project-tech">MERN Stack • 2025</span>
+                    <p>
+                        Built a role-based attendance management system enabling Admin and Manager access for
+                        daily attendance tracking, status updates, and comprehensive reporting features. Includes
+                        data visualization and export capabilities.
+                    </p>
+                    <div class="project-actions">
+                        <a href="https://github.com/Kumarakrishnan2001/Attendence-m-system.git" target="_blank"
+                            class="project-link-btn github">
+                            GitHub Code
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="project-card fade-in">
+
+            <div class="glass-card project-card fade-in">
+                <div class="project-top-bar"></div>
                 <div class="project-content">
-                    <h3>AI-Interview system <a href="https://stellular-cuchufli-e4c187.netlify.app/" target="_blank"><img src="icons8-website-50.png" alt="" style="background-color: rgb(230, 240, 240);height: 6%"> Live Demo</a></h3>
-                    <p class="project-tech">HTML, CSS,Reactjs | 2025</p>
-                    <p>The AI-Interview system automates candidate evaluation with intelligent resume screening and virtual interviews.
-It analyzes communication, confidence, and skills using advanced machine learning algorithms.
-This streamlines hiring, saving recruiters time while ensuring fair and data-driven talent selection.</p>
+                    <h3>AI-Interview System</h3>
+                    <span class="project-tech">HTML, CSS, React.js • 2026</span>
+                    <p>
+                        The AI-Interview system automates candidate evaluation with intelligent resume screening and
+                        virtual interviews.
+                        It analyzes communication, confidence, and skills using advanced machine learning algorithms to
+                        streamline hiring.
+                    </p>
+                    <div class="project-actions">
+                        <a href="https://stellular-cuchufli-e4c187.netlify.app/" target="_blank"
+                            class="project-link-btn demo">
+                            <img src="icons8-website-50.png" alt=""
+                                style="width: 18px; height: 18px; filter: brightness(0) invert(1);"> Live Demo
+                        </a>
+                    </div>
                 </div>
-        </div>
+            </div>
         </div>
     </section>
 
+    <!-- Experience / Timeline Section -->
     <section id="experience">
-        <h2>Journey & Milestones</h2>
+        <div class="section-header fade-in">
+            <h2>Journey &amp; Milestones</h2>
+            <p class="section-subtitle">Education, training &amp; professional background</p>
+        </div>
         <div class="timeline">
-            <div class="timeline-item fade-in">
+            <div class="glass-card timeline-item fade-in">
                 <h3>Web Development Trainee</h3>
-                <p class="timeline-date">UpToSkills • Jun 2025 – Sep 2025</p>
-                <p>Designed and developed responsive web pages using HTML, CSS, and Tailwind CSS. Built 
-                interactive UI components with JavaScript and React.js. Collaborated with team members 
-                using Git and GitHub and tested APIs using Postman.</p>
+                <span class="timeline-date">UpToSkills • Jun 2025 – Sep 2025</span>
+                <p>
+                    Designed and developed responsive web pages using HTML, CSS, and Tailwind CSS. Built
+                    interactive UI components with JavaScript and React.js. Collaborated with team members
+                    using Git and GitHub and tested APIs using Postman.
+                </p>
             </div>
-            <div class="timeline-item fade-in">
+
+            <div class="glass-card timeline-item fade-in">
                 <h3>Python Intern</h3>
-                <p class="timeline-date">Infogro Technology • May 2025 – Jun 2025</p>
-                <p>Completed hands-on training in Python fundamentals, logic building, scripting, 
-                and data handling concepts. Worked on real-world data processing projects.</p>
+                <span class="timeline-date">Infogro Technology • May 2025 – Jun 2025</span>
+                <p>
+                    Completed hands-on training in Python fundamentals, logic building, scripting,
+                    and data handling concepts. Worked on real-world data processing projects.
+                </p>
             </div>
-            <div class="timeline-item fade-in">
+
+            <div class="glass-card timeline-item fade-in">
                 <h3>Master of Computer Applications (MCA)</h3>
-                <p class="timeline-date">Hindustan College of Arts and Science • 2024 – 2026</p>
-                <p> Advanced studies in computer applications with focus on 
-                Web development, database management, and UI/UX Design.</p>
+                <span class="timeline-date">Hindustan College of Arts and Science • 2024 – 2026</span>
+                <p>
+                    Advanced studies in computer applications with focus on
+                    Web development, database management, software engineering, and UI/UX Design.
+                </p>
             </div>
-            <div class="timeline-item fade-in">
+
+            <div class="glass-card timeline-item fade-in">
                 <h3>Bachelor of Computer Applications (BCA)</h3>
-                <p class="timeline-date">Arignar Anna Government Arts College • 2020 – 2023</p>
-                <p>Completed undergraduate degree with CGPA 7.3. Gained foundational knowledge in 
-                programming, web development, and database systems.</p>
+                <span class="timeline-date">Arignar Anna Government Arts College • 2020 – 2023</span>
+                <p>
+                    Completed undergraduate degree with CGPA 7.3. Gained foundational knowledge in
+                    programming, web development, object-oriented concepts, and database systems.
+                </p>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Let's Connect</h2>
+        <div class="section-header fade-in">
+            <h2>Let's Connect</h2>
+            <p class="section-subtitle">Feel free to reach out for opportunities or collaborations</p>
+        </div>
         <div class="contact-grid">
-            <div class="contact-item fade-in">
+            <div class="glass-card contact-item fade-in">
                 <div class="contact-icon">📧</div>
                 <h3>Email</h3>
                 <a href="mailto:kumardcpt@gmail.com">kumardcpt@gmail.com</a>
             </div>
-            <div class="contact-item fade-in">
+
+            <div class="glass-card contact-item fade-in">
                 <div class="contact-icon">📱</div>
                 <h3>Phone</h3>
                 <a href="tel:+919787577273">+91 97875 77273</a>
             </div>
-            <div class="contact-item fade-in">
+
+            <div class="glass-card contact-item fade-in">
                 <div class="contact-icon">💼</div>
                 <h3>LinkedIn</h3>
                 <a href="https://linkedin.com/in/kumarakrishnan-d" target="_blank">kumarakrishnan-d</a>
             </div>
-            <div class="contact-item fade-in">
+
+            <div class="glass-card contact-item fade-in">
                 <div class="contact-icon">💻</div>
                 <h3>GitHub</h3>
                 <a href="https://github.com/kumarakrishnan2001" target="_blank">kumarakrishnan2001</a>
@@ -203,68 +342,120 @@ This streamlines hiring, saving recruiters time while ensuring fair and data-dri
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p style="font-size: 1.1rem;">Built with 💜 by Kumarakrishnan D</p>
-        <p style="margin-top: 0.5rem; opacity: 0.7;">&copy; 2026 All rights reserved.</p>
+        <p>Built with <span class="heart">💜</span> by <strong>Kumarakrishnan D</strong></p>
+        <p class="sub-text">&copy; 2026 All rights reserved</p>
     </footer>
 
+    <!-- Back to Top Floating Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+
+    <!-- Interactive Scripts -->
     <script>
-        // Progress bar
+        // Scroll Progress Bar
         window.addEventListener('scroll', () => {
             const scrollTop = window.scrollY;
             const docHeight = document.documentElement.scrollHeight - window.innerHeight;
             const scrollPercent = (scrollTop / docHeight) * 100;
             document.getElementById('progressBar').style.width = scrollPercent + '%';
+
+            // Back to top button visibility
+            const backToTopBtn = document.getElementById('backToTop');
+            if (window.scrollY > 400) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
         });
 
-        // Smooth scrolling
+        // Back to top click handler
+        document.getElementById('backToTop').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Smooth Scroll for Nav Links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
                 if (target) {
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    // Close mobile nav if open
+                    document.getElementById('navMenu').classList.remove('active');
                 }
             });
         });
 
-        // Fade-in animation on scroll
+        // Mobile Nav Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // IntersectionObserver Scroll Reveal Animations
         const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
+            threshold: 0.12,
+            rootMargin: '0px 0px -50px 0px'
         };
 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.style.animation = 'fadeInUp 0.8s ease-out forwards';
+                    entry.target.classList.add('appear');
                 }
             });
         }, observerOptions);
 
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-        // Active nav link
+        // Active Navigation Highlight on Scroll
         const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('nav a');
+        const navLinks = document.querySelectorAll('nav ul a');
 
         window.addEventListener('scroll', () => {
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= sectionTop - 200) {
+                if (window.scrollY >= sectionTop - 250) {
                     current = section.getAttribute('id');
                 }
             });
 
             navLinks.forEach(link => {
-                link.style.color = '';
+                link.classList.remove('active');
                 if (link.getAttribute('href').slice(1) === current) {
-                    link.style.color = 'var(--primary)';
+                    link.classList.add('active');
                 }
+            });
+        });
+
+        // 3D Glass Tilt Effect on Hover for Cards
+        const glassCards = document.querySelectorAll('.glass-card');
+        glassCards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+
+                const rotateX = ((y - centerY) / centerY) * -6; // max 6 deg tilt
+                const rotateY = ((x - centerX) / centerX) * 6;
+
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)';
             });
         });
     </script>
 </body>
+
 </html>
